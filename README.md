@@ -1,2 +1,2 @@
-# CSGO_BacktrackPatch
- 
+## CSGO Backtrack Patch
+Attempt to patch Lag Compensation "Exploit" aka Backtrack by checking history ticks inside CPlayerMove::RunCommand and simply blocking the new command that tries to use old used tick.
